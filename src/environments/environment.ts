@@ -3,8 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+  production: false,
+  firebaseConfig : {
+    apiKey: "AIzaSyAuUcGk6gnAnGZ9A1CvP3ZkYCkc590XfwU",
+    authDomain: "gastronomia-cipo.firebaseapp.com",
+    projectId: "gastronomia-cipo",
+    storageBucket: "gastronomia-cipo.appspot.com",
+    messagingSenderId: "74020019027",
+    appId: "1:74020019027:web:69e35671eeb2e861569fa6",
+    measurementId: "G-KGJH8FBYV8"
+  }
+
+ };
 
 /*
  * For easier debugging in development mode, you can import the following file
